@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title><link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <div> 
+        <form action="signup" method="post" enctype="multipart/form-data"><table>
+       <tr><th><h1>ENTER DETAILS</h1></th></tr>    
+       <tr>
+        <td><label for="" class="label">NAME</label></td>
+        <td><input type="text" placeholder="name" class="input" name="name" required></td>
+       </tr>
+       <tr>
+        <td><label for="" class="label">MOBILE</label></td>
+       <td><input type="tel"pattern="[0-9]{10}" placeholder="mobile" class="input" name="number" required></td>
+    </tr>
+    <tr>
+        <td><label for="" class="label">EMAIL</label></td>
+        <td><input type="text"  placeholder="email" class="input" name="email" required></td>
+    </tr>
+    <tr>
+        <td><label for="" class="label">PASSWORD</label></td>
+        <td><input type="text" placeholder="password" class="input" name="password" required></td>
+    </tr>
+    <tr>
+        <td><label for="radio1" name="" class="label">gender</label></td>
+        <td>  <input type="radio" name="radio1" id="" class="radio" value="male"> <b>male</b>
+           <input type="radio" name="radio1" id="" class="radio" value="female"> <b>female</b></td>
+    </tr>
+   
+<tr>
+    <td><label for="" class="label"  >picture</label></td>
+    <td><input type="file" placeholder="picture" class="input" name="pic" required></td>
+</tr>
+ <tr> 
+        <td> <label for="country"class="label">country</label></td>
+        <td> <select name="country" id="">
+           <option value="country" class="input">India</option>
+            <option value="country" class="input">USA</option>
+            <option value="country" class="input">UK</option>
+        </select></td>
+    </tr>
+<tr>
+    <td><label for="" class="label">DATE OF BIRTH</label></td>
+    <td><input type="date"  class="input" name="dob" ></td>
+</tr>
+
+<tr>
+    <td><button>signup</button></td>
+    <td><button>cancel</button></td>
+</tr>
+<tr>
+    <td> <h3>already have account? </h3></td>
+    <td>   <a href="login.html">click</a></td>
+</tr>
+
+</table>
+
+        </form>
+        
+</div>
+</body>
+</html>

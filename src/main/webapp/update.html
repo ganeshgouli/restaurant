@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+    body{
+    background-image: url(https://img.freepik.com/free-photo/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions_2829-10942.jpg?w=1060&t=st=1691683369~exp=1691683969~hmac=9a256d77ca915e84fdc816660467622d584216f64a72806f35ec8e20848dfeeb);
+   background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    
+}
+div{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+input{
+    height: 30px;
+    width: 300px;
+}
+label{
+    display: flex;
+    align-items: center;
+    background-color: rgba(24, 15, 15, 0.6);
+    color: white;
+    font-size: x-large;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+}
+select{
+    
+    height: 30px;
+    width: 300px;
+    color: white;
+font-size: 30px;
+}
+</style>
+</head>
+<body>
+<div>
+    <form action="signup" method="get">
+<table>
+    <tr>
+    <td><label for="">Email</label></td>
+    <td><input type="email" name="email" id=""></td>
+</tr>
+<tr>
+    <td><label for="">Date of birth</label></td>
+    <td><input type="date" name="dob" id=""></td>
+</tr>
+<tr>
+    <td><label for="">Mobile</label></td>
+    <td><input type="number" name="moblie" id=""></td>
+</tr>
+<tr>
+    <td><label for="name">country</label></td>
+    <td><select>
+        <option value="name" >INDIA</option>
+        <option value="name">UK</option>
+        <option value="name">USA</option>
+    </select></td>
+</tr>
+<tr>
+    <td><label for="">New password</label></td>
+    <td><input type="password" name="password" id=""></td>
+</tr>
+<tr>
+    <td><button>Update password</button></td>
+<td><button> cancel</button></td>
+    
+</tr>
+
+</table>
+
+
+
+
+    </form>
+</div>
+</body>
+</html>

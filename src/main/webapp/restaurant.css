@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+body{
+    background-image:url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+div{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background-color: rgba(18, 1, 1, 0.5);
+    color:white;
+   font-size: 40px;
+   forced-color-adjust: black;
+}
+.button{
+width: 130px;
+height: 40px;
+font-size: 20px;
+}
+.input{
+    width: 250px;
+    height: 40px; 
+}
+#Forgot{
+    background-color: rgba(18, 1, 1, 0.5);
+    color:white;
+    font-size: 30px;
+   
+   margin: 30px;
+   
+
+
+}
